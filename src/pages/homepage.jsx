@@ -4,7 +4,7 @@ import CustomMoonLoader from "../components/loader";
 import axios from "axios";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import "./HomePage.css";
+import ".homepage.css"
 import { useNavigate } from "react-router-dom";
 
 export const useCountry = createContext();
