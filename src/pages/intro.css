@@ -1,0 +1,23 @@
+.animated-text {
+    width: 100%;
+    height: 300px;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #31473A;
+    animation: fadeSlideUp 1.5s ease-out;
+}
+
+
+@keyframes fadeSlideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
